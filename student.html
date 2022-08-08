@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Info</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+</head>
+<body>
+	<table class="table table-hover   table-bordered"
+	style="max-width:800px;" align="center">
+	<tr>
+		<td colspan="3"><h1>Student Information</h1></td>
+	</tr>
+	<tr>
+		<td>name</td>
+		<td>:</td>
+		<td> <input type="text" name="name"
+			class="form-control" style="max-width:400px;"
+			placeholder="enter your name">
+		</td>
+
+	</tr>
+	<tr>
+		<td>address</td>
+		<td>:</td>
+		<td>
+			<textarea class="form-control" style="max-width:400px;"
+			placeholder="Enter your address"></textarea>
+		</td>
+
+	</tr>
+	<tr>
+		<td>Depertment</td>
+		<td>:</td>
+		<td>
+			<select class="form-control" style="max-width:400px;">
+
+			<option>CSE</option>
+			<option>EEE</option>
+			<option>BBA</option>
+			</select>
+		</td>
+
+	</tr>
+	<tr>
+		<td>shift</td>
+		<td>:</td>
+		<td><input type="checkbox" name="firstshift"
+			value="1st shift">1st shift
+			<input type="checkbox" name="secondshift" value="2nd  shift">2nd shift
+		</td>
+
+	</tr>
+
+	<tr>
+		<td>Religion</td>
+		<td>:</td>
+		<td>
+			<select class="form-control" style="max-width:400px;">
+				<option>Islam</option>
+				<option>Hindu</option>
+				<option>others</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>image</td>
+		<td>:</td>
+		<td><input type="file" name="img">
+		</td>
+	</tr>
+	<tr>
+		<td>Email</td>
+		<td>:</td>
+		<td><input type="Email" name="Email">
+		</td>
+
+	</tr>
+	<tr>
+		<td>password</td>
+		<td>:</td>
+		<td><input type="password" name="password">
+		</td>
+	</tr>
+<tr>
+            
+            <td colspan="3">
+            	<input name="submit" value="save"
+              type="submit" class=" btn btn-success">
+            	
+              <input name="submit" value="delete"
+              type="submit" class=" btn btn-danger">
+
+              <input name="submit" value="edit"
+              type="submit" class=" btn btn-primary">
+
+              <input name="submit" value="cancel"
+              type="submit" class=" btn btn-warning">
+            </td>
+          </tr>
+
+
+
+
+	</table>
+
+
+</body>
+</html>
